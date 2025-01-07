@@ -1,0 +1,1 @@
+This example demonstrates a common error in Ada programming: accessing an array element outside its defined index range.  The `Constraint_Error` exception is raised when an attempt is made to assign a value to `My_Array(11)`, which is beyond the array's bounds (1..10). The solution shows how to prevent this using range checks and exception handling.
